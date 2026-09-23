@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP.net\\Pizza_website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\user\\myprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:user\\myprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|d:\\asp.net\\pizza_website\\registration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:registration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__ASP.NET_PIZZA_WEBSITE_APP_DATA_PIZZAORDERINGDB.MDF/True/SqlTable/dbo.Admins.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__ASP.NET_PIZZA_WEBSITE_APP_DATA_PIZZAORDERINGDB.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\registration.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:registration.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\images\\avatar.jpg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:images\\avatar.jpg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|D:\\ASP.net\\Pizza_website\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{714916A7-2D32-4A37-936A-09A2B2D95C45}|Pizza_Website.csproj|solutionrelative:admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 2,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__ASP.NET_PIZZA_WEBSITE_APP_DATA_PIZZAORDERINGDB.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-21T05:18:52.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Admins [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__ASP.NET_PIZZA_WEBSITE_APP_DATA_PIZZAORDERINGDB.MDF/True/SqlTable/dbo.Admins.sql",
+              "ToolTip": "dbo.Admins [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-21T05:18:38.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Contact.aspx",
+              "RelativeDocumentMoniker": "Contact.aspx",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Contact.aspx",
+              "RelativeToolTip": "Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:41:50.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registration.aspx",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Registration.aspx",
+              "RelativeDocumentMoniker": "Registration.aspx",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Registration.aspx",
+              "RelativeToolTip": "Registration.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:34:58.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyProfile.aspx",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\User\\MyProfile.aspx",
+              "RelativeDocumentMoniker": "User\\MyProfile.aspx",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\User\\MyProfile.aspx",
+              "RelativeToolTip": "User\\MyProfile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-15T16:15:21.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Cart.aspx",
+              "RelativeDocumentMoniker": "Cart.aspx",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Cart.aspx",
+              "RelativeToolTip": "Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:41:48.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registration.aspx.cs",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Registration.aspx.cs",
+              "RelativeDocumentMoniker": "Registration.aspx.cs",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Registration.aspx.cs",
+              "RelativeToolTip": "Registration.aspx.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:35:02.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Profile.aspx",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Profile.aspx",
+              "RelativeDocumentMoniker": "Profile.aspx",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Profile.aspx",
+              "RelativeToolTip": "Profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:42:03.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "About.aspx",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\About.aspx",
+              "RelativeDocumentMoniker": "About.aspx",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\About.aspx",
+              "RelativeToolTip": "About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:41:41.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-14T15:42:10.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Menu.aspx",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Menu.aspx",
+              "RelativeDocumentMoniker": "Menu.aspx",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Menu.aspx",
+              "RelativeToolTip": "Menu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:44:26.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "avatar.jpg",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Images\\avatar.jpg",
+              "RelativeDocumentMoniker": "Images\\avatar.jpg",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Images\\avatar.jpg",
+              "RelativeToolTip": "Images\\avatar.jpg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-09-14T15:38:43.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Site.Master",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Site.Master",
+              "RelativeToolTip": "Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:37:57.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Admin\\Admin.Master",
+              "RelativeDocumentMoniker": "Admin\\Admin.Master",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Admin\\Admin.Master",
+              "RelativeToolTip": "Admin\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:40:17.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Site1.Master",
+              "DocumentMoniker": "D:\\ASP.net\\Pizza_website\\Site1.Master",
+              "RelativeDocumentMoniker": "Site1.Master",
+              "ToolTip": "D:\\ASP.net\\Pizza_website\\Site1.Master",
+              "RelativeToolTip": "Site1.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-14T15:22:54.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
