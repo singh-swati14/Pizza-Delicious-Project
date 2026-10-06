@@ -1,8 +1,12 @@
 using System;
+<<<<<<< HEAD
 using System.Data;
 using System.Data.SqlClient;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+=======
+using System.Web.UI;
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
 
 namespace Pizza_Website.Admin
 {
@@ -15,6 +19,7 @@ namespace Pizza_Website.Admin
                 Response.Redirect("~/Admin/AdminLogin.aspx");
                 return;
             }
+<<<<<<< HEAD
 
             if (!IsPostBack)
             {
@@ -146,6 +151,8 @@ namespace Pizza_Website.Admin
         {
             lblMessage.Text = message;
             lblMessage.CssClass = success ? "alert alert-success d-block mb-3" : "alert alert-danger d-block mb-3";
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
         }
     }
 }

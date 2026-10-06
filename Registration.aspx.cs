@@ -63,7 +63,10 @@ namespace Pizza_Website
 
                 con.Close();
 
+<<<<<<< HEAD
                 // Clear edit mode
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                 ViewState["EditUserId"] = null;
                 btnRegister.Text = "Register";
 
@@ -91,7 +94,10 @@ namespace Pizza_Website
                 SqlConnection con = DatabaseHelper.GetConnection();
                 con.Open();
 
+<<<<<<< HEAD
                 // Check duplicate email
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                 string checkQuery = "SELECT COUNT(*) FROM Users WHERE Email = '" + email + "'";
 
                 SqlCommand checkCmd = new SqlCommand(checkQuery, con);
@@ -107,7 +113,11 @@ namespace Pizza_Website
                     return;
                 }
 
+<<<<<<< HEAD
                 // Insert new user
+=======
+
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                 string insertQuery = "INSERT INTO Users " +
                     "(FullName, Email, Mobile, Password, Address, Role, Status, CreatedDate) " +
                     "VALUES ('" + name + "', '" + email + "', '" + mobile + "', '" +

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
@@ -288,3 +289,22 @@ namespace Pizza_Website.Admin
         }
     }
 }
+=======
+using System;
+using System.Web.UI;
+
+namespace Pizza_Website.Admin
+{
+    public partial class ManageDelivery : Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (Session["AdminId"] == null)
+            {
+                Response.Redirect("~/Admin/AdminLogin.aspx");
+                return;
+            }
+        }
+    }
+}
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09

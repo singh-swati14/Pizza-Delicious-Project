@@ -7,6 +7,7 @@ namespace Pizza_Website.Delivery
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (Session["DeliveryId"] == null)
             {
                 Response.Redirect("~/Delivery/DeliveryLogin.aspx");
@@ -22,6 +23,8 @@ namespace Pizza_Website.Delivery
         {
             Session.Remove("DeliveryId"); Session.Remove("DeliveryName"); Session.Remove("DeliveryEmail"); Session.Remove("DeliveryMobile"); Session.Remove("DeliveryVehicle");
             Response.Redirect("~/Delivery/DeliveryLogin.aspx");
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
         }
     }
 }

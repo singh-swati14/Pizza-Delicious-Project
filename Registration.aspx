@@ -138,12 +138,20 @@
                                 <asp:BoundField DataField="CreatedDate" HeaderText="Date Registered" DataFormatString="{0:yyyy-MM-dd HH:mm}" />
                                 <asp:TemplateField HeaderText="Edit">
                                     <ItemTemplate>
+<<<<<<< HEAD
                                         <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%# Eval("UserId") %>' CommandName="cmd_edt" CausesValidation="false">Edit</asp:LinkButton>
+=======
+                                        <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%# Eval("UserId") %>' CommandName="cmd_edt">Edit</asp:LinkButton>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Delete">
                                     <ItemTemplate>
+<<<<<<< HEAD
                                         <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%# Eval("UserId") %>' CommandName="cmd_dlt" CausesValidation="false">Delete</asp:LinkButton>
+=======
+                                        <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%# Eval("UserId") %>' CommandName="cmd_dlt">Delete</asp:LinkButton>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>

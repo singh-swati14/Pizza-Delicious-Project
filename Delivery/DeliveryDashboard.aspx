@@ -10,7 +10,11 @@
             <p class="text-muted mb-0">Delivery partner portal for order dispatching and status updates</p>
         </div>
         <div>
+<<<<<<< HEAD
             <asp:Label ID="lblDutyStatus" runat="server" CssClass="badge bg-success px-3 py-2 fs-6"></asp:Label>
+=======
+            <span class="badge bg-success px-3 py-2 fs-6"><i class="fas fa-circle me-1"></i>Status: On Duty</span>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
         </div>
     </div>
 
@@ -22,7 +26,11 @@
                     <span class="text-muted small fw-bold">ASSIGNED ORDERS</span>
                     <div class="stat-icon bg-warning text-dark"><i class="fas fa-clipboard-list"></i></div>
                 </div>
+<<<<<<< HEAD
                 <asp:Label ID="lblAssigned" runat="server" CssClass="fw-bold mb-0 text-warning fs-3"></asp:Label>
+=======
+                <h3 class="fw-bold mb-0 text-warning">2</h3>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                 <small class="text-muted">Requires action</small>
             </div>
         </div>
@@ -33,7 +41,11 @@
                     <span class="text-muted small fw-bold">PENDING DELIVERIES</span>
                     <div class="stat-icon bg-danger text-white"><i class="fas fa-motorcycle"></i></div>
                 </div>
+<<<<<<< HEAD
                 <asp:Label ID="lblPending" runat="server" CssClass="fw-bold mb-0 text-danger fs-3"></asp:Label>
+=======
+                <h3 class="fw-bold mb-0 text-danger">1</h3>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                 <small class="text-danger">En route now</small>
             </div>
         </div>
@@ -44,7 +56,11 @@
                     <span class="text-muted small fw-bold">COMPLETED DELIVERIES</span>
                     <div class="stat-icon bg-success text-white"><i class="fas fa-check-double"></i></div>
                 </div>
+<<<<<<< HEAD
                 <asp:Label ID="lblCompleted" runat="server" CssClass="fw-bold mb-0 text-success fs-3"></asp:Label>
+=======
+                <h3 class="fw-bold mb-0 text-success">84</h3>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                 <small class="text-success">Total fulfilled</small>
             </div>
         </div>
@@ -55,7 +71,11 @@
                     <span class="text-muted small fw-bold">TODAY'S DELIVERIES</span>
                     <div class="stat-icon bg-info text-white"><i class="fas fa-calendar-day"></i></div>
                 </div>
+<<<<<<< HEAD
                 <asp:Label ID="lblToday" runat="server" CssClass="fw-bold mb-0 fs-3"></asp:Label>
+=======
+                <h3 class="fw-bold mb-0">8</h3>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                 <small class="text-muted">₹320 tips earned</small>
             </div>
         </div>

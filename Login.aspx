@@ -9,7 +9,11 @@
             <div class="col-md-6 col-lg-5">
                 <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
                     <div class="bg-danger text-white text-center py-4 px-3">
+<<<<<<< HEAD
                         <h3 class="fw-bold mb-1">Welcome Back!</h3>
+=======
+                        <h3 class="fw-bold mb-1"> Welcome Back!</h3>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                         <p class="small mb-0 opacity-75">Sign in to your Customer Account</p>
                     </div>
 
@@ -53,6 +57,7 @@
 
                         <hr class="my-4">
 
+<<<<<<< HEAD
                         <!-- Delivery Partner Login Navigation -->
                         <div class="text-center mb-3">
                             <p class="text-uppercase text-muted small font-weight-bold mb-2">
@@ -68,6 +73,8 @@
 
                         <hr class="my-4">
 
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                         <!-- Separate Admin Login Navigation -->
                         <div class="text-center">
                             <p class="text-uppercase text-muted small font-weight-bold mb-2">Administrator Access</p>

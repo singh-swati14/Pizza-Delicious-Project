@@ -9,10 +9,13 @@ namespace Pizza_Website.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (!IsPostBack)
             {
                 DatabaseHelper.InitializeDatabase();
             }
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
         }
 
         protected void btnAdminLogin_Click(object sender, EventArgs e)
@@ -29,6 +32,7 @@ namespace Pizza_Website.Admin
 
             try
             {
+<<<<<<< HEAD
                 SqlConnection con = DatabaseHelper.GetConnection();
                 con.Open();
 
@@ -68,6 +72,48 @@ namespace Pizza_Website.Admin
 
                 dr.Close();
                 con.Close();
+=======
+                using (SqlConnection con = DatabaseHelper.GetConnection())
+                {
+                    con.Open();
+                    string query = "SELECT AdminId, FullName, Email, Status FROM Admins WHERE Username = @Username AND Password = @Password";
+                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    {
+                        cmd.Parameters.AddWithValue("@Username", username);
+                        cmd.Parameters.AddWithValue("@Password", password);
+
+                        using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                        {
+                            DataTable dt = new DataTable();
+                            sda.Fill(dt);
+
+                            if (dt.Rows.Count > 0)
+                            {
+                                string status = dt.Rows[0]["Status"].ToString();
+                                if (status.Equals("Active", StringComparison.OrdinalIgnoreCase))
+                                {
+                                    Session["AdminId"] = dt.Rows[0]["AdminId"].ToString();
+                                    Session["AdminName"] = dt.Rows[0]["FullName"].ToString();
+                                    Session["AdminEmail"] = dt.Rows[0]["Email"].ToString();
+                                    Session["AdminRole"] = "Admin";
+
+                                    Response.Redirect("~/Admin/AdminDashboard.aspx");
+                                }
+                                else
+                                {
+                                    lblAdminMessage.Text = "Your admin account is inactive.";
+                                    lblAdminMessage.CssClass = "alert alert-warning d-block mb-3";
+                                }
+                            }
+                            else
+                            {
+                                lblAdminMessage.Text = "Invalid admin username or password.";
+                                lblAdminMessage.CssClass = "alert alert-danger d-block mb-3";
+                            }
+                        }
+                    }
+                }
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
             }
             catch (Exception ex)
             {

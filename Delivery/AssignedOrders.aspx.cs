@@ -1,8 +1,12 @@
 using System;
+<<<<<<< HEAD
 using System.Data;
 using System.Data.SqlClient;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+=======
+using System.Web.UI;
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
 
 namespace Pizza_Website.Delivery
 {
@@ -10,6 +14,7 @@ namespace Pizza_Website.Delivery
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (Session["DeliveryId"] == null)
             {
                 Response.Redirect("~/Delivery/DeliveryLogin.aspx");
@@ -90,6 +95,8 @@ namespace Pizza_Website.Delivery
         {
             lblMessage.Text = message;
             lblMessage.CssClass = success ? "alert alert-success d-block mb-3" : "alert alert-danger d-block mb-3";
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
         }
     }
 }

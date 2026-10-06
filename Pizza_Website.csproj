@@ -67,7 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Admin\ManageDelivery.aspx" />
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Content Include="App_Data\PizzaOrderingDB.mdf" />
     <Content Include="App_Data\PizzaOrderingDB_log.ldf">
       <DependentUpon>PizzaOrderingDB.mdf</DependentUpon>
@@ -110,18 +113,26 @@
     <Content Include="Admin\ManagePizzas.aspx" />
     <Content Include="Admin\ManageCategories.aspx" />
     <Content Include="Admin\ManageOrders.aspx" />
+<<<<<<< HEAD
+=======
+    <Content Include="Admin\ManageDelivery.aspx" />
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Content Include="User\User.Master" />
     <Content Include="User\UserDashboard.aspx" />
     <Content Include="User\MyProfile.aspx" />
     <Content Include="User\MyOrders.aspx" />
     <Content Include="Delivery\Delivery.Master" />
+<<<<<<< HEAD
     <Content Include="Delivery\DeliveryLogin.aspx" />
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Content Include="Delivery\DeliveryDashboard.aspx" />
     <Content Include="Delivery\AssignedOrders.aspx" />
     <Content Include="Delivery\DeliveryProfile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Admin\ManageDelivery.aspx.cs">
       <DependentUpon>ManageDelivery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -129,6 +140,8 @@
     <Compile Include="Admin\ManageDelivery.aspx.designer.cs">
       <DependentUpon>ManageDelivery.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DatabaseHelper.cs" />
     <Compile Include="Site.Master.cs">
@@ -213,34 +226,53 @@
     <Compile Include="Admin\AdminDashboard.aspx.designer.cs">
       <DependentUpon>AdminDashboard.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Admin\ManageUsers.aspx.designer.cs">
       <DependentUpon>ManageUsers.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Admin\ManageUsers.aspx.cs">
       <DependentUpon>ManageUsers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Admin\ManagePizzas.aspx.designer.cs">
       <DependentUpon>ManagePizzas.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Admin\ManagePizzas.aspx.cs">
       <DependentUpon>ManagePizzas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Admin\ManageCategories.aspx.designer.cs">
       <DependentUpon>ManageCategories.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Admin\ManageCategories.aspx.cs">
       <DependentUpon>ManageCategories.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Admin\ManageOrders.aspx.designer.cs">
       <DependentUpon>ManageOrders.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Admin\ManageOrders.aspx.cs">
       <DependentUpon>ManageOrders.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Admin\ManageDelivery.aspx.cs">
+      <DependentUpon>ManageDelivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="User\User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -263,13 +295,17 @@
       <DependentUpon>MyOrders.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Delivery\Delivery.Master.designer.cs">
       <DependentUpon>Delivery.Master</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Delivery\Delivery.Master.cs">
       <DependentUpon>Delivery.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Delivery\DeliveryLogin.aspx.cs">
       <DependentUpon>DeliveryLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -280,20 +316,28 @@
     <Compile Include="Delivery\DeliveryDashboard.aspx.designer.cs">
       <DependentUpon>DeliveryDashboard.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Delivery\DeliveryDashboard.aspx.cs">
       <DependentUpon>DeliveryDashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Delivery\AssignedOrders.aspx.designer.cs">
       <DependentUpon>AssignedOrders.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Delivery\AssignedOrders.aspx.cs">
       <DependentUpon>AssignedOrders.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Delivery\DeliveryProfile.aspx.designer.cs">
       <DependentUpon>DeliveryProfile.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
     <Compile Include="Delivery\DeliveryProfile.aspx.cs">
       <DependentUpon>DeliveryProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

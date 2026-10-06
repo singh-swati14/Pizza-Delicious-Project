@@ -23,8 +23,13 @@
                     🍕 Pizza Palace <span class="badge bg-success fs-6 align-middle ms-2">Delivery Partner</span>
                 </a>
                 <div class="d-flex align-items-center gap-3 ms-auto">
+<<<<<<< HEAD
                     <asp:Label ID="lblRiderName" runat="server" CssClass="text-light me-2 d-none d-md-inline"><i class="fas fa-motorcycle text-success me-1"></i> Rider</asp:Label>
                     <asp:LinkButton ID="btnDeliveryLogout" runat="server" CssClass="btn btn-outline-light btn-sm" OnClick="btnDeliveryLogout_Click"><i class="fas fa-sign-out-alt me-1"></i> Logout</asp:LinkButton>
+=======
+                    <span class="text-light me-2 d-none d-md-inline"><i class="fas fa-motorcycle text-success me-1"></i> Rider: Rahul Sharma</span>
+                    <a href="<%= Page.ResolveUrl("~/Login.aspx") %>" class="btn btn-outline-light btn-sm"><i class="fas fa-sign-out-alt me-1"></i> Logout</a>
+>>>>>>> f6d00a40191ed24fd0b3230de093c32c2e8f5c09
                 </div>
             </div>
         </nav>
