@@ -1,0 +1,79 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.Master.cs" Inherits="Pizza_Website.User.UserMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - User Portal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="~/CSS/site.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-light">
+    <form id="form1" runat="server">
+        <!-- Top Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand fw-bold fs-4 text-warning" href="<%= Page.ResolveUrl("~/User/UserDashboard.aspx") %>">
+                     Pizza Palace <span class="badge bg-primary fs-6 align-middle ms-2">Customer Portal</span>
+                </a>
+                <div class="d-flex align-items-center gap-3 ms-auto">
+                    <span class="text-light me-2 d-none d-md-inline">
+                        <i class="fas fa-user-circle text-info me-1"></i> Welcome, <asp:Literal ID="litUserPortalName" runat="server">User</asp:Literal>!
+                    </span>
+                    <a href="<%= Page.ResolveUrl("~/Menu.aspx") %>" class="btn btn-warning btn-sm fw-bold"><i class="fas fa-pizza-slice me-1"></i> Order Pizza</a>
+                    <asp:LinkButton ID="btnUserLogout" runat="server" CssClass="btn btn-outline-light btn-sm" OnClick="btnUserLogout_Click">
+                        <i class="fas fa-sign-out-alt me-1"></i> Logout
+                    </asp:LinkButton>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sidebar Layout -->
+        <div class="sidebar-layout">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="px-3 pb-3 border-bottom border-secondary mb-3">
+                    <small class="text-uppercase text-secondary fw-bold">User Navigation</small>
+                </div>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/User/UserDashboard.aspx") %>">
+                            <i class="fas fa-th-large"></i> User Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/User/MyProfile.aspx") %>">
+                            <i class="fas fa-id-card"></i> My Profile
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/User/MyOrders.aspx") %>">
+                            <i class="fas fa-receipt"></i> My Orders
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/Menu.aspx") %>">
+                            <i class="fas fa-pizza-slice"></i> Explore Menu
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Main User Content -->
+            <div class="main-dashboard-content">
+                <asp:ContentPlaceHolder ID="UserMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/bootstrap.bundle.min.js"></script>
+    <script src="<%= Page.ResolveUrl("~/Scripts/site.js") %>"></script>
+</body>
+</html>

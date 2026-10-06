@@ -1,0 +1,87 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.Master.cs" Inherits="Pizza_Website.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Pizza Palace Admin Panel</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="~/CSS/site.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-light">
+    <form id="form1" runat="server">
+        <!-- Top Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand fw-bold fs-4 text-warning" href="<%= Page.ResolveUrl("~/Admin/AdminDashboard.aspx") %>">
+                    🍕 Pizza Palace <span class="badge bg-danger fs-6 align-middle ms-2">Admin Portal</span>
+                </a>
+                <div class="d-flex align-items-center gap-3 ms-auto">
+                    <span class="text-light me-2 d-none d-md-inline"><i class="fas fa-user-shield text-warning me-1"></i> Administrator</span>
+                    <a href="<%= Page.ResolveUrl("~/Home.aspx") %>" class="btn btn-outline-light btn-sm"><i class="fas fa-store me-1"></i> View Website</a>
+                    <asp:LinkButton ID="btnAdminLogout" runat="server" CssClass="btn btn-danger btn-sm" OnClick="btnAdminLogout_Click">
+                        <i class="fas fa-sign-out-alt me-1"></i> Logout
+                    </asp:LinkButton>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sidebar Layout -->
+        <div class="sidebar-layout">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="px-3 pb-3 border-bottom border-secondary mb-3">
+                    <small class="text-uppercase text-secondary fw-bold">Admin Controls</small>
+                </div>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/Admin/AdminDashboard.aspx") %>">
+                            <i class="fas fa-tachometer-alt"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/Admin/ManageUsers.aspx") %>">
+                            <i class="fas fa-users"></i> Manage Users
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/Admin/ManagePizzas.aspx") %>">
+                            <i class="fas fa-pizza-slice"></i> Manage Pizzas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/Admin/ManageCategories.aspx") %>">
+                            <i class="fas fa-list"></i> Manage Categories
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/Admin/ManageOrders.aspx") %>">
+                            <i class="fas fa-shopping-bag"></i> Manage Orders
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<%= Page.ResolveUrl("~/Admin/ManageDelivery.aspx") %>">
+                            <i class="fas fa-truck"></i> Manage Delivery
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Main Admin Content -->
+            <div class="main-dashboard-content">
+                <asp:ContentPlaceHolder ID="AdminMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/bootstrap.bundle.min.js"></script>
+    <script src="<%= Page.ResolveUrl("~/Scripts/site.js") %>"></script>
+</body>
+</html>
